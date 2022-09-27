@@ -1,10 +1,19 @@
 import './App.css';
 
+// Components ↓
+import { Welcome } from './components/Welcome';
+import { TaskTable } from './components/Task/TaskTable';
+
+
+
 function App() {
   return (
-
-    <h1>Alfredo zavala → Developer Frontend</h1>
-
+    <div>
+      <h1 className='bg-secondary p-3'>Alfredo zavala → Developer Frontend</h1>
+      <Welcome />
+      <hr/>
+      <TaskTable/>
+    </div>
   );
 }
 
